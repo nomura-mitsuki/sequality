@@ -6,7 +6,7 @@ public class Calculate {
   }
 
   // xからyまでの合計
-  public int sum_roop(int x, int y, int mode) {
+  public int sum_loop(int x, int y, int mode) {
     int sum_odd = 0;
     int sum_even = 0;
 
@@ -32,7 +32,7 @@ public class Calculate {
   // xからyまでの平均
   public double average(int x, int y) {
     double sum = 0;
-    sum = this.sum_roop(x, y, 0);
+    sum = this.sum_loop(x, y, 0);
     double ave = sum / (y - x + 1);
     return ave;
   }
